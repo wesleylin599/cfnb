@@ -55,7 +55,7 @@
     "WXPUSHER_UIDS": ["your_uid_here"],
     "_comment_WXPUSHER_UIDS": "【请填写接收通知的用户 UID 列表】",
 
-    "WXPUSHER_API_URL": "http://wxpusher.zjiecode.com/api/send/message",
+    "WXPUSHER_API_URL": "https://wxpusher.zjiecode.com/api/send/message",
     "_comment_WXPUSHER_API_URL": "WxPusher 消息发送 API 地址（一般无需修改）",
 
     "NOTIFY_TIMEOUT": 3,
@@ -85,10 +85,6 @@
         },
         {
             "url": "https://countrymerge.pages.dev/all.txt",
-            "enabled": true
-        },
-        {
-            "url": "https://wtf-359.pages.dev/wtf.txt",
             "enabled": true
         }
     ],

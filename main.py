@@ -132,7 +132,7 @@ def load_config():
         "ENABLE_WXPUSHER": True,
         "WXPUSHER_APP_TOKEN": "your_app_token_here",
         "WXPUSHER_UIDS": ["your_uid_here"],
-        "WXPUSHER_API_URL": "http://wxpusher.zjiecode.com/api/send/message",
+        "WXPUSHER_API_URL": "https://wxpusher.zjiecode.com/api/send/message",
         "NOTIFY_TIMEOUT": 3,
         "NOTIFY_CONNECT_TIMEOUT": 3,
         "CF_ENABLED": True,
