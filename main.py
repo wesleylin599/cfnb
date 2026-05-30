@@ -909,7 +909,7 @@ def sync_to_github():
         interpreter = ["powershell", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File"]
         creationflags = subprocess.CREATE_NO_WINDOW
     else:
-        script_name = "git_sync.sh"
+        script_name = "sh git_sync.sh"
         interpreter = ["bash"]
         creationflags = 0
 
